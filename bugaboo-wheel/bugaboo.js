@@ -1,6 +1,6 @@
 let base = Cylinder(39 / 2, 8);
 
-let main_shaft = Cylinder(16 / 2, 38);
+let main_shaft = Cylinder(16 / 2, 37);
 main_shaft = FilletEdges(main_shaft, 1.5, Edges(main_shaft).indices());
 
 let skirt = Cylinder(36 / 2, 13.5);
